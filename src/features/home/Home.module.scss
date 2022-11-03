@@ -1,0 +1,145 @@
+// Home css
+
+.sectionTop {
+    width: 100%;
+    height: 900px;
+    background-image: url('../../assets/Hero_Background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    .container {
+        max-width: 1920px;
+        width: 80%;
+        margin: 0 auto;
+        
+        .title1{
+            margin-top: 40px;
+            font-size: 70px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-style: italic;
+            font-weight: 900;
+            line-height: 55px;
+            transform: scaleY(2);
+            margin-top: 150px;
+        }
+        .desc1 {
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 120px;
+            transform: scaleY(1.5);
+        }
+        .btnBuy {
+            button {
+                width: 40%;
+                height: 60px;
+                background-color: #577A30;
+                color: white;
+                font-size: 30px;
+                font-style: italic;
+                border-radius: 5px;
+                margin-top: 40px;
+                transform: scaleY(1.5);
+            }
+        }
+    }
+}
+.nft {
+    background-color: lightgray;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: -120px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../assets/btn_wallet.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sectionBottom {
+    margin-top: 80px;
+    background-image: url('../../assets/Green_Splash_Art.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left bottom;
+    width: 100%;
+    .container {
+        max-width: 1920px;
+        width: 80%;
+        height: 600px;
+        margin: 0 auto;
+        .title2 {
+            text-align: center;
+            font-size: 60px;
+            color: #1f2c10;
+            font-style: italic;
+            font-weight: bold;
+            transform: scaleY(1.5);
+        }
+        .desc2 {
+            width: 50%;
+            margin: 150px auto;
+            font-size: 15px;
+            color: #1f2c10;
+            text-align: center;
+            transform: scaleY(1.5);
+            font-weight: bold;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sectionTop {
+        height: 950px;
+        .container {
+            max-width: 768px;
+            width: 90%;
+            .title1 {
+                width: 100%;
+                text-align: center;
+                line-height: 70px;
+            }
+            .desc1 {
+                text-align: center;
+                margin-top: 150px;
+            }
+            .btnBuy {
+                button {
+                    width: 100%;
+                    margin-top: 70px;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+    .nft {
+        margin-top: -100px;
+    }
+    .sectionBottom {
+        .container {
+            max-width: 768px;
+            width: 90%;
+            height: 1100px;
+            .title2 {
+                font-size: 40px;
+            }
+            .desc2 {
+                width: 100%;
+                font-size: 25px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 412px) {
+    .sectionBottom {
+        // background-size: 50% 100%;
+        .container {
+            height: 1400px;
+        }
+    }
+}

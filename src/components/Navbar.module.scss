@@ -1,0 +1,58 @@
+.bodyNav {
+    width: 80%;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        div {
+            margin: 60px;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+    }
+    .wallet {
+        padding: 10px;
+        color: yellowgreen;
+        border: 4px solid yellowgreen;
+        border-radius: 5px;
+        font-weight: 500;
+        font-style: italic;
+        font-size: 25px;
+    }
+}
+.hamburgerMenu {
+    width: 100%;
+    height: 50px;
+    // background-color: black;
+    color: white;
+    display: none;
+
+    .wallet {
+        color: yellowgreen;
+        border: 4px solid yellowgreen;
+        border-radius: 5px;
+        font-weight: 500;
+        font-style: italic;
+        font-size: 25px;
+        padding: 10px 0px;
+        width: 80%;
+        margin-left: 20%;
+        text-align: center;   
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bodyNav {
+        display: none;
+    }
+    .hamburgerMenu {
+        display: flex;
+    }
+}
